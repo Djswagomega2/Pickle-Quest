@@ -1,0 +1,16 @@
+body{ 
+font-family: VT323;
+font-size: 15px;
+color: goldenrod;
+background-color: black;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 75%;
+
+img{
+border: 10px inset gray;
+border-radius: 25px;
+margin: 0 auto;
+width: 50%;
+}

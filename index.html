@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+  	<title>Pickle Quest a Choose your own adventure game maybe (v0.1) by Daniel G.S.</title>
+  	<link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+  <!-- Whole Game  -->
+    <div class= "StartScreen"> 
+      <h1> Hello Welcome to Pickle Quest. This is a tale about a legnedary warrior (aka you) who is tasked with finding the fabled legendary pickle. There will be a lot of challenges you will face so, prepare yourself; but I'm confident you're ready, would you like to start?
+      </h1>
+      <br></br>
+      <img src="GoldenPickle.png" alt="GoldenPickle" class="Pickle" width=450px>
+      <br></br>
+      <button class="startButton">Then Let's begin!</button>
+    </div>
+  
+    <!-- Scenario 1 -->
+    <div class="wholeGame">
+      <div class="scenario1">r
+        <p>Hello there young traveler, can you lend this little old man an ear and tell me what your name is? </p>
+      	<input class="userName" placeholder="State your name"</input>
+        <button class="NameEnter">Enter</button>
+      </div>
+    </div>
+    <div>
+      <p class= "NameConfirmation">Player is that your name?</p>
+    </div>
+    <div class="scenarioOneOptions">
+      <div class="scenarioOneButtons">
+        <button class="Yes">Yes</button>
+        <button class="No">No</button>
+      </div>
+    </div>
+  
+      
+    <!-- Scenario 2 -->
+    <div class="scenario2">
+      <p id="scenario2-text"> Ok then ,  let me tell you the story of the Legendary Pickle that was, long ago, a great tragedy struck as creatures known as "the uncondiment" were terrorizing the kingdom. However, one day, a mighty hero, entrusted with a solid golden pickle from the sandwich gods from above, the uncondiments were quelled and sealed up in the substantial pickle cave protected by the ham-dragon. BUT YOUNG TRAVELER, the ham-dragon has become corrupt and threatens to take the golden pickle for himself, meaning the kingdom might be in great danger. You must get ready now if you want to go find the legendary pickle and save our kingdom, get ready for a pickle quest </p> 
+      <!-- condense this in final verison -->
+      <button class="Continue">Enter</button>
+    </div>
+    <div class="Armor_Select">
+      <p> However, you need to protect yourself for this dangerous journey, so pick a suit of armor... free of charge of course, but I only got 3 to choose from</p>
+    </div>
+    <div class="scenarioTWOOptions">
+      <div class="scenarioTWOButtons">
+        <button class="Armor1"> A steel suit of armor with a utility belt</button>
+        <button class="Armor2">A sleak black ninja like suit with a speedy light weight shoes</button>
+        <button class="Armor3">A Furry Suit (O//W\\O)</button>
+      </div>
+      <div class= "SuitConfirmation">
+         <p>(comment) Would you like to select this gear?</p>
+      </div>
+      <div class="SuitPick">
+        <button class="Y2">Yes</button>
+        <button class="N2">No</button>
+      </div>
+    </div>
+     
+    <div class="adventure_start">
+      <p> Alright it looks like you're already, now young adventurer its time for you to embrak. GO Explore the world and most important of all retrive the pickle to save our kingdom, we're all counting on you</p>
+    </div>
+    <div class="adventure_GO">
+       <button class="GO!">Enter</button>
+    </div>
+  
+    <!-- Scenario 3  -->
+    <div class="scenario3">
+      <p> Your walking down the road and a monster pops out... what will you do? </p>
+    </div>
+    <div class= "scenarioTHREEOptions">
+      <button class="Attack">Attack</button>
+      <button class="Defend">Hold a defensive postition</button>
+    </div>
+  
+    <div class="Choice_Defend">
+      <p> The monster got bored and ran away </p>
+    </div>
+    <div class="Choice_Attack">
+      <p> You Attack, the monster is defeated </p>
+    </div>
+  
+    <div class= "Next">
+     <button class="C2">Enter</button>
+    </div>
+  
+    <!-- Scenario 4  -->
+    <div class="scenario4">
+      <p> You arrive in your next town and you see a Shady Merchant, he calls you aside </p>
+      <p>Hello there would you like some totally not sus potion... I'll even give it to you for free</p>
+    </div>
+    <div class= "scenarioFOURptions">
+      <p> Would you like too accept it?</p>
+       <button class="Y3">Yes</button>
+       <button class="N3">No</button>
+    </div>
+  
+    <div class= "Merchant_Accept">
+      <p> You take the potion...... it pousions and you die
+    </div>
+  
+    <div class= "Merchant_Fight">
+      <p>Fine then If you won't take my stuff then face me in battle</p>
+      <p> The Merchant is wanting to fight what do you do?</p>
+    </div>
+  
+    <div class= "scenarioFOURfight">
+      <button class="Attack2">Attack</button>
+      <button class="Defend2">Hold a defensive postition</button>
+    </div>
+  
+    <div class= "Defeated">
+      <p>Looks like you can't defeat the true power of the merchant</p>
+      <p>The merchant stabs you and steals your kindeys</p>
+    </div>
+  
+    <div class= "Win">
+      <p>  No WHY MUST YOU DO THIS TO MEEE??? (melts away)</p>
+    </div>
+  
+    <div class= "Next2">
+      <button class="C3">Enter</button>
+    </div>
+  
+    <!-- Scenario 5  -->
+    <div class= "scenario5">
+      <p>You walk up to the pickle caverns and, but a huge ham looking dragon stands in your way he says "STATE WHY YOU HERE MORAL"</p>
+    </div>
+  
+    <div class= "Response">
+      <p> What would you say?</p>
+      <button class="Truthful">I'm here for the legendary pickle </button>
+      <button class="Meme">YOUR MUM (LOL+DAB+XD+ GET REKT BOZO+ L + RATIO) </button>
+      <button class="Vague">I'm here for a challenge</button>
+    </div>
+  
+    <div class= "WHAT">
+      <p>...what was that about my mother?</p>
+    </div>
+  
+    <div class="LEAVE">
+      <p>Well what ever you're here for your not getting it so SCRAM!!!!</p>
+    </div>
+  
+    <div class= "Response2">
+      <p> What would you say?</p>
+      <button class="Fine">Fine! </button>
+      <button class="Refuse">NO!</button>
+    </div>
+  
+    <div class="QuestEnd">
+      <p>You walkaway from the dragon never to complete your pickle quest :(</p>
+    </div>
+     
+    <!-- Game End  -->
+    <div class= "scenarioFIVEfight">
+      <p>Oh for Pickle's sakes!!!!!!! FINE SINCE YOUR SO ADAMENT ON GETTING THAT DAMN PICKLE YOUR MUST FACE ME IN BATTLE GET YOUR BOTTOMS READY!!!!!</p>
+      <button class="Attack3">ATTACK!!!</button>
+      <button class="Defend3">DEFEND!!!</button>
+    </div>
+    
+    <div class= "Defeated2">
+      <p>Looks like I win....your foolishness got in the way of your success...now its time for you to perish *crunch*</p>
+      <p>The dragons eats up and swallows your body</p>
+    </div>
+   <!-- Game End  -->
+    
+    <div class= "Win2">
+      <p>HOW DID A MERIELY MORTAL MANAGE TO DEFEAT ME?!?!?!?!</p>
+      <p>The Dragons keels over in pain,you procced in to the caverns</p>
+      <div class="Next3">
+        <button class="C4">Enter</button>
+      </div>
+    </div>
+  
+    <!--  <div class= "ONWARD!!!!!">
+    <p> What would you say?</p> -->
+  
+    <!-- Final Scenario -->
+    <div class ="finalscenario">
+      <p>You walk into the cavern, but you weren't looking where you where going and activate the booby traps</p>
+      <p>A log hammer swings at full speed towars you</p>
+    </div>
+  
+    <div class="LH">
+      <p>Quickly DODGE!!!! (shows only for 5 seconds)</p>
+    </div>
+  
+    <div class="SB">
+      <p>A saw blade comes spining towars you)</p>
+    </div>
+  
+    <div class="STP">
+      <p>A stone piller falls from the ceiling and tries to crush you </p>
+    </div>
+  
+    <div class="QTD">
+       <button class="DODGE">DODGE! </button>
+    </div>
+
+    <div class= "QTD_2">
+     <button class="DODGE">JUMP!</button>
+    </div>
+
+<div class= "QTD_3">
+  <button class="DODGE">ROLL!</button>
+</div>
+
+<div class= "Final_Selection">
+<p>You keep walkingthrough the cave only to reach a cross roads....are you going to go Left or Right?</p>
+   <button class="Left">Left</button>
+   <button class="Right">Right</button>
+</div>
+
+ <div class= "Right_2">  
+ <p> You decide to head right and.......fall into a pit of lava you didn't see </p>
+</div>  
+
+ <div class= "Left_2">  
+ <p> You decide to head left and....... CONGRAULATIONS!!!!! YO HAVE FOUND THE LEGENDARY PICKLE!!! you have finished your pickle quest and you head home to cherish in your findings </p>
+</div>  
+    
+    <!--  Game Over -->
+    <div class="Game_Over">
+      <p> Game Over, would you like to try again? </p>
+    </div>
+     
+    <div class="G_Oselect">
+      <button class="Y4">Yes</button>
+      <button class="N4">No</button>
+    </div>
+
+    <div class="The_End">
+    <p> The End <br>
+    Game Created and Coded by Daniel Glenn-Schultz <br>
+    With help (and also coded) by David Ondrich <br>
+    Art by Matthew S.
+    </p>
+       
+    <!-- Sceanrio Select -->
+    <div class="scenarioselect">
+      <p> What Scenario would you like to play?</p>
+      <button class="Title_Screen">Title Screen</button>
+      <button class="Scenario_1">Scenario 1</button>
+      <button class="Scenario_2">Scenario 2</button>
+      <button class="Scenario_3">Scenario 3</button>
+      <button class="Scenario_4">Scenario 4</button>
+    </div>   
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+      
+      <!-- Need to edit -->
+      
+      <!-- Fixes -->
+
+      
+      <!-- Potential Updates -->
+        <!-- Final Boss? -->
+        <!-- More Lore? -->
+        <!-- Add scenario select screen -->
